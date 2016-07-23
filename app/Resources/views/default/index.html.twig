@@ -45,7 +45,7 @@
      {% for dish in dishes %}
    <div class="col-md-4">
       <div class="thumbnail">
-        <img src="{{ asset(['bundles/framework/images/', dish.image]|join) }}" alt="{{ dish.name }}">
+        <img src="{{ asset(['images/', dish.image]|join) }}" alt="{{ dish.name }}">
         <div class="caption text-center">
           <h3>{{ dish.name }}</h3>
           <p>{{ dish.description }}</p>
